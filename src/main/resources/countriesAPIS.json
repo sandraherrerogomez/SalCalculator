@@ -1,0 +1,63 @@
+{
+  "countries": [{
+    "name": "Spain",
+    "API": "https://salaryaftertax.com/es/salary-calculator",
+    "source": "salaryaftertax"
+  },
+    {
+      "name": "Ireland",
+      "API": "https://salaryaftertax.com/ie/salary-calculator",
+      "source": "salaryaftertax"
+    },
+    {
+      "name": "France",
+      "API": "https://salaryaftertax.com/fr/salary-calculator",
+      "source": "salaryaftertax"
+    },
+    {
+      "name": "Belgium",
+      "API": "https://salaryaftertax.com/be/salary-calculator",
+      "source": "salaryaftertax"
+    },
+    {
+      "name": "Italy",
+      "API": "https://salaryaftertax.com/it/salary-calculator",
+      "source": "salaryaftertax"
+    },
+    {
+      "name": "Luxembourg",
+      "API": "https://salaryaftertax.com/lu/salary-calculator",
+      "source": "salaryaftertax"
+    },
+    {
+      "name": "United Kingdom",
+      "API": "https://salaryaftertax.com/uk/salary-calculator",
+      "source": "salaryaftertax"
+    },
+    {
+      "name": "United States",
+      "API": "https://salaryaftertax.com/us/salary-calculator",
+      "source": "salaryaftertax"
+    },
+    {
+      "name": "Australia",
+      "API": "https://salaryaftertax.com/au/salary-calculator",
+      "source": "salaryaftertax"
+    },
+    {
+      "name": "New Zealand",
+      "API": "https://salaryaftertax.com/nz/salary-calculator",
+      "source": "salaryaftertax"
+    },
+    {
+      "name": "Singapore",
+      "API": "https://salaryaftertax.com/sg/salary-calculator",
+      "source": "salaryaftertax"
+    },
+    {
+      "name": "Japan",
+      "API": "https://salaryaftertax.com/jp/salary-calculator",
+      "source": "salaryaftertax"
+    }
+  ]
+}
