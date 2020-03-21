@@ -1,5 +1,6 @@
 package com.salcalculator.salcalculator.controller;
 
+import com.salcalculator.salcalculator.model.CountriesAPI;
 import com.salcalculator.salcalculator.model.SalaryData;
 import com.salcalculator.salcalculator.service.SalaryCalculatorService;
 import com.salcalculator.salcalculator.service.SalaryCalculatorServiceByAPI;
@@ -19,6 +20,11 @@ public class SalaryCalculatorController {
     @GetMapping("salary")
     public SalaryData getNetSalaryByCountry(@RequestParam String countryName, @RequestParam double grossSalary) throws Exception {
         return svc.calculateNetSalary(countryName, grossSalary);
+    }
+
+    @GetMapping("countries")
+    public CountriesAPI getCountries() throws Exception {
+        return svc.getCountries();
 
     }
 

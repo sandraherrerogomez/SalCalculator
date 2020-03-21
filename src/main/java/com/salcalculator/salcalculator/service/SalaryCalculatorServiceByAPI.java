@@ -21,6 +21,14 @@ public class SalaryCalculatorServiceByAPI implements SalaryCalculatorService {
     @Autowired
     private SalaryComparatorSATParserService salaryAfterTService;
 
+    public CountriesAPI getCountries() throws IOException {
+        Resource resource = new ClassPathResource("countriesAPIS.json");
+
+        File file = resource.getFile();
+        ObjectMapper objMapper=new ObjectMapper();
+        return objMapper.readValue(file, CountriesAPI.class);
+    }
+
     @Override
     public SalaryData calculateNetSalary(String userCountryRequest, double salary) throws Exception {
 
