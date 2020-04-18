@@ -24,7 +24,7 @@ public class SalaryCalculatorServiceByAPI implements SalaryCalculatorService {
     public CountriesAPI getCountries() throws IOException {
         Resource resource = new ClassPathResource("countriesAPIS.json");
 
-        File file = resource.getFile();
+        InputStream file = resource.getInputStream();
         ObjectMapper objMapper=new ObjectMapper();
         return objMapper.readValue(file, CountriesAPI.class);
     }
