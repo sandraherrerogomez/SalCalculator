@@ -34,7 +34,7 @@ public class SalaryCalculatorServiceByAPI implements SalaryCalculatorService {
 
         Resource resource = new ClassPathResource("countriesAPIS.json");
 
-        File file = resource.getFile();
+        File file = resource.getInputStream();
         ObjectMapper objMapper=new ObjectMapper();
         CountriesAPI APIData = objMapper.readValue(file, CountriesAPI.class);
 
